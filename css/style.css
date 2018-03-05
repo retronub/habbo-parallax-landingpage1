@@ -1,0 +1,84 @@
+/* Allgemeine Formatierung der Elemente und texte */
+body,
+html{
+	height: 100%;
+	margin: 0;
+	font-size: 16px;
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	line-height: 1.8em;
+	color: #666;
+}
+
+/* Positionierung der Bilder, Scrolleffekt und Transparenz der Bilder */
+.bg1,
+.bg2,
+.bg3{
+	 position: relative;
+	 
+	 background-position: center;
+	 background-size: cover;
+	 background-repeat: no-repeat;
+	 background-attachment: fixed;
+}
+/* Einbinden und formatieren der Hintergrundbilder */
+.bg1{
+	background-image: url('../img/bg1.jpg');
+	min-height: 100%;
+}
+
+.bg2{
+	background-image: url('../img/bg2.png');
+	min-height: 400px;
+}
+
+.bg3{
+	background-image: url('../img/bg3.png');
+	min-height: 400px;
+}
+/* Formatierung der Absätze */
+.sec{
+	text-align: center;
+	padding: 50px 80px;
+	font-size: 16px;
+	letter-spacing: 1px;
+	
+	
+}
+/* Hier könnt ihr gerne noch weitere Farben für die Section Bereiche einfügen nicht vergessen die Klasse in der indexdatei anzupassen */
+.color1{
+	background-color: #f4f4f4;
+	
+}
+
+.bgtext{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	font-size: 27px;
+	letter-spacing: 4px;
+	
+	
+	
+}
+
+.bgtext .border{
+	background-color: #111;
+	color: #fff;
+	padding: 20px;
+	
+}
+/* Positioniert die Socialmedia Symbole/Links unten rechts am Bildschirm ihr könnt gerne weitere hinzufügen einfach den right Wert des voherigen um 65px erhöhen. Die Symbole findet ihr zB auf www.iconfinder.com */
+.fb{
+	position: fixed;
+	bottom: 2px;
+	right: 66px
+}
+
+.dc{
+	position: fixed;
+	bottom: 2px;
+	right: 1px;
+}
